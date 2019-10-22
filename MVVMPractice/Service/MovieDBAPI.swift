@@ -19,7 +19,7 @@ final class MovieDBAPI {
     static let shared = MovieDBAPI()
     
     fileprivate let baseEndpoint = "https://api.themoviedb.org/3/search/movie"
-    fileprivate let MOVIE_API_KEY = "c366b28fa7f90e98f633846b3704570c"
+    fileprivate let MOVIE_API_KEY = ""
     
     /**
      Fetches movies from MovieDB

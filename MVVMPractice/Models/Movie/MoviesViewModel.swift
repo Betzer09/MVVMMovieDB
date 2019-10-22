@@ -20,7 +20,6 @@ struct MoviesViewModel {
     }
     
     func fetchMoviesWith(name: String) {
-        
         MovieDBAPI.shared.fetchMoviesWith(name: name) { (result) in
             switch result {
             case .failure(let e):
